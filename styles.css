@@ -1,8 +1,13 @@
+
 body {
     background-color: #fffbf7;
+    
 }
 h1 {
     color:#025157;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 60px;
 }
 h4 {
     color: #8b8b8bcc;
@@ -13,4 +18,59 @@ p {
 button {
     color: #fff;
     background-color: #025157;
+}
+/* Clase */
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    height: 80px;
+}
+
+/* Relacionado a un ID 
+#main {
+    margin-top: 150px;
+}
+*/
+
+
+
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Todos los elementos que sean hijos de header va a tener un display  */
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header .logo {
+    width: 20%;
+    text-align: left;
+}
+
+.header .navbar {
+    width: 60%;
+    text-align: center;
+}
+
+.header .actions {
+    width: 20%;
+    text-align: right;
+    border:0;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main .img {
+    width:80%;
+    max-width: 1000px;
 }
